@@ -11,7 +11,9 @@
     <!--配置参数加载-->
     <context:property-placeholder location="application.properties"/>
 
-    <import resource="kafka-consumer.xml"/>
-    <import resource="kafka-producer.xml"/>
+    <import resource="kafka/kafka-consumer.xml"/>
+    <import resource="kafka/kafka-producer.xml"/>
+
+    <import resource="rabbit/rabbitmq-configure.xml"/>
 
 </beans>
